@@ -30,15 +30,16 @@ about:
       href: cv.qmd
 ---
 
-I use UAV hyperspectral imaging, satellite remote sensing, and machine learning to answer applied questions in agriculture, from sub-field corn yield prediction to nutrient monitoring.
- 
-Recent work includes interpretable machine learning for U.S. corn and soybean yield, and UAV-based hyperspectral classification distinguishing irrigation treatments in soybean at over 95% accuracy. My PhD (Environmental Dynamics, University of Arkansas) spanned ground-penetrating radar, remote sensing at contaminated sites, and machine learning applications from Guatemala to the U.S. Corn Belt.
+I study how agricultural systems can operate within ecological limits, and build the measurements that show whether they do. My work uses sensors to make properties visible that conventional sampling cannot reach, and interpretable models find the thresholds where those systems change behavior.
+
+Recent work includes interpretable machine learning for U.S. maize and soybean yield, hyperspectral detection of irrigation stress in soybean canopies, and satellite monitoring of vegetation recovery at a Superfund site. My PhD (Environmental Dynamics, University of Arkansas) spanned ground-penetrating radar, remote sensing at contaminated sites, and machine learning from Guatemala to the Corn Belt.
 
 ## Interests
 
-- Remote sensing of nutrient and canopy dynamics
-- Interpretable machine learning for agricultural and ecological prediction
-- Geospatial modeling of land suitability and conservation outcomes
+- Agroecology and the ecological limits of production systems
+- Remote sensing of soil, canopy, and nutrient dynamics
+- Interpretable machine learning and threshold detection
+- Land suitability, ecosystem recovery, and biodiversity outcomes
 - Reproducible, open workflows for environmental data science
 
 ## Education
