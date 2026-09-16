@@ -14,13 +14,4 @@ and [ORCID](https://orcid.org/0000-0003-4358-2306).
 
 ## Preprints
 
-Pillai, N., Virupakshaiah, A., Smith, H. W., Ashworth, A. J., Gowda, P., Owens, P. R., Rivers, A. R., Nanduri, B., & Ramkumar, M. (2025). Denoised diffusion for object-focused image augmentation. *arXiv*. <https://doi.org/10.48550/arXiv.2510.08955>
-
 Pillai, N., Virupakshaiah, A., Smith, H. W., Ashworth, A. J., Gowda, P., Owens, P. R., Rivers, A. R., Nanduri, B., & Ramkumar, M. (2025). Policy-driven transfer learning in resource-limited animal monitoring. *arXiv*. <https://doi.org/10.48550/arXiv.2509.10995>
-
-::: {.todo}
-**Note.** Peer-reviewed articles above render automatically from
-`publications.bib`. Add a BibTeX entry, re-render, done. Preprints are written
-by hand here so they stay clearly separated from peer-reviewed work. Move an
-entry into the .bib file when it is accepted somewhere. Delete this box.
-:::

@@ -5,10 +5,6 @@ toc: true
 toc-title: "On this page"
 ---
 
-::: {.todo}
-**Placeholder.** Each thrust below needs 2 to 3 sentences in your voice, plus one figure. The `.thrust-meta` line is the one-phrase framing a reader scans before deciding to read the paragraph. Swap each `images/research-*.jpg` for a real figure. Delete this box when done.
-:::
-
 ## Remote sensing of nutrient dynamics
 
 ::: {.thrust}
@@ -17,9 +13,8 @@ toc-title: "On this page"
 ::: {}
 [UAV hyperspectral · Satellite time series · Watershed nutrient monitoring]{.thrust-meta}
 
-[Two or three sentences: what the measurement problem is, what sensors and platforms you use, and what the payoff is. Mention the Illinois River Watershed and poultry litter work here if that is the anchor example.]
+Nutrient monitoring at the watershed or landscape scale is critical for understanding ecosystem dynamics and ensuring envirnmental quality. My work uses satellite and drone (UAV) based sensor platforms to quantify, monitor, and predict nutrient dynamics at scale. 
 
-[Optional: one sentence naming collaborators or funders.]
 :::
 :::
 
@@ -31,7 +26,7 @@ toc-title: "On this page"
 ::: {}
 [SHAP · Spatial cross-validation · Crop yield and soil quality prediction]{.thrust-meta}
 
-[Two or three sentences: why prediction accuracy alone is not the goal, and what interpretability methods let you recover about the underlying system. The maize and soybean temperature threshold result is a concrete hook.]
+Machine learning makes high dimensional data useful, but has a reputation as a "black box" technology - we cannot always explain how it makes the predictions it does. For many environmental challenges and systems, prediction accuracy alone is not not enough. We use interpretability methods (also known as "explainable AI" or XAI) to improve our understanding of the underlying system.
 :::
 :::
 
@@ -43,14 +38,10 @@ toc-title: "On this page"
 ::: {}
 [Species distribution models · MaxEnt · Soil and climate suitability]{.thrust-meta}
 
-[Two or three sentences: the modeling question, the systems you have applied it to, and who uses the output.]
+Understanding what makes a particular piece of land suitable for a specific use is a complex question that involves multiple environmental factors. I use species distribution models an advanced geospatial techniques to identify what factors will lead to the best outcomes, so we can match land with it's ideal use case.
 :::
 :::
 
 ## Software and tools
-
-::: {.todo}
-**Not yet in the navigation.** When you have your first public repo or web tool, uncomment the `tools.qmd` entry in `_quarto.yml` and move this section there. Until then it lives quietly at the bottom of this page, or you can delete it.
-:::
 
 Code from published work is on [GitHub](https://github.com/harrisonwsmith).

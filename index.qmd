@@ -30,15 +30,9 @@ about:
       href: cv.qmd
 ---
 
-::: {.todo}
-**Placeholder.** Write 2 to 4 short paragraphs below in your own voice. Suggested shape, not a script: (1) what you study, in one plain sentence a non-specialist would follow; (2) the methods that make your approach distinctive; (3) where you are now and what you are building toward. Delete this box when done.
-:::
-
-[One sentence: the problem you work on and why it matters.]
-
-[Two or three sentences: the approach. Remote sensing at UAV and satellite scale, interpretable machine learning, geospatial modeling. What question does combining them let you answer that any one alone cannot?]
-
-[One or two sentences: current position, and the direction you are heading.]
+I am an environmental data scientist and agricultural researcher specializing in remote sensing and machine learning, currently working as a postdoctoral fellow at USDA-ARS. I use UAV hyperspectral imaging, satellite remote sensing, and machine learning to answer applied questions in agriculture, from sub-field corn yield prediction to livestock welfare monitoring to water quality.
+ 
+Recent work includes interpretable machine learning for U.S. corn and soybean yield, and UAV-based hyperspectral classification distinguishing irrigation treatments in soybean at over 95% accuracy. My PhD (Environmental Dynamics, University of Arkansas) spanned ground-penetrating radar, remote sensing at contaminated sites, and machine learning applications from Guatemala to the U.S. Corn Belt.
 
 ## Interests
 

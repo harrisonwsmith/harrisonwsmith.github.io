@@ -356,12 +356,6 @@ Invited talks and award-winning presentations. The full list is in the PDF.
 
 **Proximal sensing.** Ground penetrating radar, apparent electrical conductivity, electrical resistivity
 
-::: {.todo}
-This Skills section was assembled from evidence in your CV, which has no
-skills section of its own. Add anything missing and cut anything you would not
-want to be asked about in an interview. Delete this box.
-:::
-
 ## Professional memberships
 
 American Society of Agronomy · Crop Science Society of America · Soil Science
