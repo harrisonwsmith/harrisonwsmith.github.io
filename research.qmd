@@ -21,7 +21,7 @@ and what land can sustain.
 ::: {}
 [UAV hyperspectral · Satellite time series · Ground penetrating radar · Apparent electrical conductivity]{.thrust-meta}
 
-Many of the properties that govern how a system functions are invisible to conventional sampling, or too costly to measure at the scale decisions get made. However, modern sensors help close that gap. Working across satellite, UAV, and proximal platforms, I develop methods to quantify crop and nutrient dynamics at landscape and watershed scale. In soybean, irrigation regime turns out to be written into the canopy spectrum itself, separable from reflectance alone at over 95% accuracy. What would otherwise require instrumenting a field can be read off the canopy.
+Many of the properties that govern how a system functions are invisible to conventional sampling, or too costly to measure at the scale decisions get made. However, modern sensors help close that gap. Working across satellite, UAV, and proximal platforms, I develop methods to quantify crop and nutrient dynamics at landscape and watershed scale. In soybean, I found that irrigation regime is detectible in the canopy spectrum itself, separable from reflectance alone at over 95% accuracy.
 
 [Selected work: [subsurface soil characterization with ground penetrating radar in a silvopastoral system](https://doi.org/10.32389/JEEG22-001) · [delineating field variation in an agroforestry system](https://doi.org/10.3390/rs14225777)]{.thrust-work}
 
@@ -36,7 +36,7 @@ Many of the properties that govern how a system functions are invisible to conve
 ::: {}
 [SHAP · Explainable AI · Boundary line analysis · Limiting factors · Spatial cross-validation]{.thrust-meta}
 
-Ecological systems rarely respond to their drivers in easily understood ways. Production is governed by whatever factor is most limiting, and responses often shift abruptly once a threshold is crossed. I use interpretability methods, including SHAP and boundary line analysis, to recover those limiting factors and critical values from models that would otherwise stay opaque. In U.S. maize, for example, yield falls sharply once maximum temperatures exceed roughly 36 to 38°C. Prediction accuracy alone would not have told us where that line sits.
+Ecological systems rarely respond to their drivers in easily understood ways. Production is governed by whatever factor is most limiting, and responses often shift abruptly once a threshold is crossed. I use interpretability methods, including SHAP and boundary line analysis, to recover those limiting factors and critical values from models that would otherwise stay opaque. In U.S. maize, for example, yield falls sharply once maximum temperatures exceed roughly 36 to 38°C.
 
 [Selected work: [environmental drivers of U.S. maize and soybean yield](https://doi.org/10.1038/s41598-026-38724-z) · [critical soil values for major crops in Guatemala](https://doi.org/10.1002/agj2.21412)]{.thrust-work}
 :::
