@@ -154,11 +154,25 @@ a {
 }
 
 // ---------------------------------------------------------------
+// Research page lede
+// ---------------------------------------------------------------
+.lede {
+  font-size: 1.08rem;
+  line-height: 1.6;
+  color: $body-color;
+  border-left: 2px solid $accent;
+  padding: 0.1rem 0 0.1rem 1.3rem;
+  margin: 0 0 2.6rem 0;
+
+  p:last-child { margin-bottom: 0; }
+}
+
+// ---------------------------------------------------------------
 // Research cards
 // ---------------------------------------------------------------
 .thrust {
   display: grid;
-  grid-template-columns: 240px 1fr;
+  grid-template-columns: 300px 1fr;
   gap: 1.8rem;
   align-items: start;
   padding: 1.9rem 0;
@@ -170,6 +184,8 @@ a {
     width: 100%;
     border-radius: 4px;
     display: block;
+    border: 1px solid $rule;
+    cursor: zoom-in;
   }
 
   h3 {
@@ -187,6 +203,19 @@ a {
   }
 
   p:last-child { margin-bottom: 0; }
+
+  .thrust-work {
+    display: block;
+    font-family: $font-family-sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: $muted;
+    margin-top: 0.9rem;
+    padding-top: 0.7rem;
+    border-top: 1px solid rgba($rule, 0.9);
+
+    a { border-bottom-color: rgba($accent, 0.22); }
+  }
 }
 
 @media (max-width: 767px) {

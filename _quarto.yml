@@ -49,6 +49,7 @@ format:
       - cosmo
       - assets/styles.scss
     toc: false
+    lightbox: true
     anchor-sections: true
     smooth-scroll: true
     link-external-newwindow: true
