@@ -4,109 +4,366 @@ toc: true
 toc-title: "Sections"
 ---
 
-::: {.todo}
-**Placeholder with your known facts filled in.** Add dates, fill the empty sections from your CV file, and swap in the real PDF at `assets/cv.pdf`. Keep this page and the PDF in sync, or drop the page and link only the PDF. Delete this box when done.
-:::
+<!--
+PDF download is commented out until a clean export exists. Two things to fix
+in Smith_Harrison_CV 2026.docx first:
+  1. Yellow highlight on the "ORISE Postdoctoral Fellow" heading and its date
+  2. An empty bullet under that heading, and nine other empty bullets further
+     down. The ORISE role currently has no description at all.
+Then export to PDF, save it as assets/cv.pdf, and uncomment the line below.
 
-[Download PDF](assets/cv.pdf){.btn .btn-outline-secondary .btn-sm}
+[Download full CV (PDF)](assets/cv.pdf){.btn .btn-outline-secondary .btn-sm}
+-->
 
 ## Appointments
 
 ::: {.cv-entry}
-[Present]{.cv-date}
+[2026–present]{.cv-date}
 
 ::: {}
-[Postdoctoral Researcher, ORISE Fellow]{.cv-role}<br>
-[USDA-ARS, Poultry Production and Product Safety Research Unit · Fayetteville, AR]{.cv-where}<br>
-[Supervisor: Amanda Ashworth]{.cv-where}
+[ORISE Postdoctoral Fellow]{.cv-role}<br>
+[USDA-ARS, Poultry Production and Product Safety Research Unit · Fayetteville, AR]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2023–2026]{.cv-date}
+
+::: {}
+[NIFA Predoctoral Fellow]{.cv-role}<br>
+[Environmental Dynamics, University of Arkansas]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2021–2023]{.cv-date}
+
+::: {}
+[Graduate Research Fellow]{.cv-role}<br>
+[Environmental Dynamics, University of Arkansas]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2021]{.cv-date}
+
+::: {}
+[Biological Sciences Technician]{.cv-role}<br>
+[Dale Bumpers Small Farms Research Center, USDA-ARS]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2020–2021]{.cv-date}
+
+::: {}
+[Project / Program Specialist]{.cv-role}<br>
+[University of Arkansas Division of Agriculture]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2019–2020]{.cv-date}
+
+::: {}
+[Research Associate, Sustainable Agriculture and Remote Sensing]{.cv-role}<br>
+[University of Michigan]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2019]{.cv-date}
+
+::: {}
+[Remote Sensing Intern]{.cv-role}<br>
+[Michigan Tech Research Institute]{.cv-where}
 :::
 :::
 
 ## Education
 
 ::: {.cv-entry}
-[YEAR]{.cv-date}
+[2026]{.cv-date}
 
 ::: {}
 [Ph.D., Environmental Dynamics]{.cv-role}<br>
 [University of Arkansas]{.cv-where}<br>
-[Dissertation: TITLE]{.cv-where}
+[Dissertation: Geospatial science and the changing environment — applied methods for sustainable agriculture and landscape management]{.cv-where}
 :::
 :::
 
 ::: {.cv-entry}
-[YEAR]{.cv-date}
+[2019]{.cv-date}
 
 ::: {}
 [M.S., Environment and Sustainability]{.cv-role}<br>
-[University of Michigan, School for Environment and Sustainability]{.cv-where}<br>
-[Specializations: Geospatial Data Science; Conservation Ecology]{.cv-where}
+[School for Environment and Sustainability, University of Michigan]{.cv-where}<br>
+[Specializations: geospatial data science; conservation ecology]{.cv-where}<br>
+[Thesis: Evaluating multiple sensors for mapping cropped area of smallholder farms in the eastern Indo-Gangetic Plains]{.cv-where}
 :::
 :::
 
 ::: {.cv-entry}
-[YEAR]{.cv-date}
+[2016]{.cv-date}
 
 ::: {}
 [B.S., Biological Sciences, *cum laude*]{.cv-role}<br>
-[University of Arkansas, Fulbright College · Minor in Spanish]{.cv-where}<br>
-[Honors thesis: nutrients, periphyton, and benthic macroinvertebrate scrapers in Ozark Highland streams]{.cv-where}
+[Fulbright College, University of Arkansas · Minor in Spanish]{.cv-where}<br>
+[Honors thesis: Relationships between nutrients, periphyton abundance, and benthic macroinvertebrate scrapers in Ozark Highland streams]{.cv-where}<br>
+[Study abroad: School for International Training (Ecuador); School for Field Studies (Peru)]{.cv-where}
 :::
 :::
 
-## Fellowships and honors
+## Awards and honors
 
 ::: {.cv-entry}
-[YEAR]{.cv-date}
+[2024–2027]{.cv-date}
 
 ::: {}
-[USDA-NIFA Predoctoral Fellowship]{.cv-role}
-:::
-:::
-
-::: {.cv-entry}
-[YEAR]{.cv-date}
-
-::: {}
-[FFAR Fellow]{.cv-role}<br>
+[Rockey FFAR Fellowship]{.cv-role}<br>
 [Foundation for Food and Agriculture Research]{.cv-where}
 :::
 :::
 
 ::: {.cv-entry}
-[YEAR]{.cv-date}
+[2023–2026]{.cv-date}
 
 ::: {}
-[Food Resiliency Fellow]{.cv-role}
+[AFRI Predoctoral Fellowship]{.cv-role}<br>
+[National Institute of Food and Agriculture]{.cv-where}
 :::
 :::
+
+::: {.cv-entry}
+[2021–2025]{.cv-date}
+
+::: {}
+[Doctoral Academy Fellowship]{.cv-role}<br>
+[University of Arkansas]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2024]{.cv-date}
+
+::: {}
+[Gerald O. Mott Meritorious Graduate Student Award in Crop Science]{.cv-role}<br>
+[Crop Science Society of America]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2024]{.cv-date}
+
+::: {}
+[Student Travel Award]{.cv-role}<br>
+[International Association for Landscape Ecology, North America Chapter]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2023]{.cv-date}
+
+::: {}
+[3rd Place, Best Presentation, Airborne and Satellite Remote Sensing]{.cv-role}<br>
+[ASA-CSSA-SSSA International Annual Meeting]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2022]{.cv-date}
+
+::: {}
+[Honorable Mention, Three Minute Thesis Competition]{.cv-role}<br>
+[University of Arkansas]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2021]{.cv-date}
+
+::: {}
+[1st Place, Best Student Presentation]{.cv-role}<br>
+[Environmental and Engineering Geophysical Society / Society of Exploration Geophysicists]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2019]{.cv-date}
+
+::: {}
+[Outstanding Graduate Student Instructor]{.cv-role}<br>
+[School for Environment and Sustainability, University of Michigan]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2018]{.cv-date}
+
+::: {}
+[Edna Bailey Sussman Award for Environmental Internships]{.cv-role}<br>
+[Edna Bailey Sussman Fund]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2012–2016]{.cv-date}
+
+::: {}
+[Governor's Distinguished Scholarship · Chancellor's Scholarship]{.cv-role}<br>
+[Arkansas Department of Higher Education · University of Arkansas]{.cv-where}
+:::
+:::
+
+## Grants and fellowships
+
+| Award | Role | Period | Amount |
+|---|---|---|---|
+| AFRI Predoctoral Fellowship, NIFA. "Where can we grow? Machine learning to predict climate impacts on U.S. corn and soybean suitability" | PI | 2023–2026 | $180,000 |
+| FFAR Predoctoral Fellowship, University of Arkansas | PI | 2024–2027 | $90,000 |
+| Doctoral Academy Fellowship, University of Arkansas | PI | 2021–2025 | $48,000 |
+| USDA-ARS Innovation Fund. "Quantifying air and water quality benefits of improved poultry manure management practices" | Co-PI | 2022 | $25,000 |
+
+: {tbl-colwidths="[52,10,18,20]"}
 
 ## Publications
 
 See [Publications](publications.qmd).
 
+## Selected presentations
+
+Invited talks and award-winning presentations. The full list is in the PDF.
+
+::: {.cv-entry}
+[2025]{.cv-date}
+
+::: {}
+[Harnessing multi-temporal satellite imagery and historical yield monitor data to predict U.S. maize and soybean yield with machine learning]{.cv-role}<br>
+[American Geophysical Union Annual Meeting · New Orleans, LA]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2023]{.cv-date}
+
+::: {}
+[Introduction to boundary line analysis]{.cv-role}<br>
+[Catholic Relief Services · Invited international workshop, delivered in Spanish]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2023]{.cv-date}
+
+::: {}
+[Timeseries satellite imagery enables monitoring of vegetation recovery at the Tar Creek Superfund Site]{.cv-role}<br>
+[ASA-CSSA-SSSA International Annual Meeting · 3rd place, Airborne and Satellite Remote Sensing]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2022]{.cv-date}
+
+::: {}
+[Geospatial analytics for enhanced soil management]{.cv-role}<br>
+[National University of Sciences and Technology, Pakistan · Invited]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2021]{.cv-date}
+
+::: {}
+[Ground penetrating radar for soil characterization in an experimental agroforestry site]{.cv-role}<br>
+[EEGS Talk About Geophysics Webinar · Invited]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2021]{.cv-date}
+
+::: {}
+[Ground penetrating radar for subsurface soil characterization and analysis]{.cv-role}<br>
+[EEGS/SEG Symposium · 1st place, Best Student Presentation]{.cv-where}
+:::
+:::
+
+## Teaching
+
+::: {.cv-entry}
+[2024]{.cv-date}
+
+::: {}
+[Lesson Planner, USDA-ARS Three Sisters Program]{.cv-role}<br>
+[Southern University Lab High School]{.cv-where}<br>
+[Developed UAV and remote sensing curriculum; reached 122 middle school students and staff]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2019–2022]{.cv-date}
+
+::: {}
+[Invited Guest Lecturer, Remote Sensing of Environment]{.cv-role}<br>
+[University of Michigan]{.cv-where}<br>
+[Annual graduate lecture on Google Earth Engine]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2019]{.cv-date}
+
+::: {}
+[Graduate Student Instructor, Natural Resource Statistics]{.cv-role}<br>
+[University of Michigan]{.cv-where}<br>
+[Graduate lab section on statistical methods in R]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[2018]{.cv-date}
+
+::: {}
+[Graduate Student Instructor, Ecology: Concepts and Applications]{.cv-role}<br>
+[University of Michigan]{.cv-where}<br>
+[Graduate ecology lab and weekly field trips]{.cv-where}
+:::
+:::
+
+## Mentoring and leadership
+
+- Undergraduate mentorship, University of Arkansas: Christopher Heffernan (Computer Science); Andrew Li (USDA Wallace Carver Fellow)
+- Treasurer, Environmental Dynamics Student Association, University of Arkansas
+- At-Large Representative, Graduate Professional Student Congress, University of Arkansas
+- Team Lead, Pollinator Partnership Northwest Arkansas (Project Wingspan)
+- Careers Chair, SEAS Student Government, University of Michigan
+- Track Leader, SEAS Environmental Informatics track, University of Michigan
+- Board Member, Celebrating Solomon Scholarship, Arkansas Community Foundation
+
+## Service and outreach
+
+- Volunteer Technician, [NWA Black Heritage East Mountain Cemetery Project](https://nwablackheritage.org/cemeteries). Proximal sensing (electrical resistivity, ground penetrating radar) to locate unmarked graves, in partnership with the Arkansas Archeological Survey.
+- Board Member, [Tri Cycle Farms](https://www.tricyclefarms.org/). Food recovery and redistribution programs.
+- YouthMappers at UArk. Volunteer mapping for disaster relief through [Humanitarian OpenStreetMap](https://www.hotosm.org/).
+
 ## Skills
 
-**Languages and tools.** [Python, R, Google Earth Engine, GDAL, QGIS, ArcGIS Pro, Git, ...]
+**Languages and platforms.** Python, R, Google Earth Engine, NetLogo, PCI Geomatica, mobile GIS and GPS field collection
 
-**Methods.** [Hyperspectral and multispectral image processing, radiative transfer modeling, random forest and gradient boosting, SHAP, spatial cross-validation, MaxEnt species distribution modeling, ...]
+**Remote sensing.** UAV/UAS operation and program development, hyperspectral and multispectral imaging, satellite time series, synthetic aperture radar processing, multi-sensor data fusion, phenology-based classification
 
-**Field.** [UAV operation and Part 107 certification if applicable, spectroradiometry, soil and water sampling, ...]
+**Modeling and analysis.** Interpretable machine learning (SHAP), random forest and gradient boosting, spatial cross-validation, boundary line analysis, species distribution modeling (MaxEnt), GIS-based multicriteria evaluation, agent-based modeling
 
-## Teaching and mentoring
-
-::: {.todo}
-Fill from your CV. For faculty applications this section carries real weight, so list courses, guest lectures, and students mentored by name and level.
-:::
-
-## Service
+**Proximal sensing.** Ground penetrating radar, apparent electrical conductivity, electrical resistivity
 
 ::: {.todo}
-Peer review (list journals), committee service, outreach.
+This Skills section was assembled from evidence in your CV, which has no
+skills section of its own. Add anything missing and cut anything you would not
+want to be asked about in an interview. Delete this box.
 :::
 
-## Presentations
+## Professional memberships
 
-::: {.todo}
-Optional on the website since the CV PDF covers it. Consider listing only invited talks here and leaving contributed posters to the PDF.
-:::
+American Society of Agronomy · Crop Science Society of America · Soil Science
+Society of America · American Geophysical Union · Ecological Society of
+America · International Association for Landscape Ecology

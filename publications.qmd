@@ -4,21 +4,23 @@ nocite: |
   @*
 ---
 
-::: {.todo}
-**How this page works.** It renders automatically from `publications.bib`. Add a BibTeX entry, re-render, and it appears here in APA style, sorted by the citation style. You never edit this file to add a paper. Delete this box once you have pasted your full Scholar export in.
-:::
-
-Full list also on [Google Scholar](https://scholar.google.com/citations?user=0P9K7HoAAAAJ).
+Also on [Google Scholar](https://scholar.google.com/citations?user=0P9K7HoAAAAJ)
+and [ORCID](https://orcid.org/0000-0003-4358-2306).
 
 ## Peer-reviewed articles
 
 ::: {#refs}
 :::
 
-## Manuscripts in preparation
+## Preprints
+
+Pillai, N., Virupakshaiah, A., Smith, H. W., Ashworth, A. J., Gowda, P., Owens, P. R., Rivers, A. R., Nanduri, B., & Ramkumar, M. (2025). Denoised diffusion for object-focused image augmentation. *arXiv*. <https://doi.org/10.48550/arXiv.2510.08955>
+
+Pillai, N., Virupakshaiah, A., Smith, H. W., Ashworth, A. J., Gowda, P., Owens, P. R., Rivers, A. R., Nanduri, B., & Ramkumar, M. (2025). Policy-driven transfer learning in resource-limited animal monitoring. *arXiv*. <https://doi.org/10.48550/arXiv.2509.10995>
 
 ::: {.todo}
-Optional section. Some people list these, some do not. If you keep it, use plain text lines rather than BibTeX so they are clearly separated from published work.
+**Note.** Peer-reviewed articles above render automatically from
+`publications.bib`. Add a BibTeX entry, re-render, done. Preprints are written
+by hand here so they stay clearly separated from peer-reviewed work. Move an
+entry into the .bib file when it is accepted somewhere. Delete this box.
 :::
-
-- [Title]. *In preparation for [Journal].*
