@@ -46,14 +46,16 @@ git push -u origin main
 
 ### 4. Turn on Pages
 
-The included GitHub Action renders the site and pushes it to a `gh-pages`
-branch on every push to `main`. The branch does not exist until the Action
-runs once, so:
+`.github/workflows/publish.yml` renders the site and hands the result straight
+to GitHub Pages. There is no `gh-pages` branch and no build output committed
+anywhere in this repository. `main` holds only source.
 
-1. Push to `main` and wait for the Action to finish (Actions tab)
-2. Go to **Settings > Pages**
-3. Set **Source** to *Deploy from a branch*, branch `gh-pages`, folder `/ (root)`
-4. Wait a minute, then open <https://harrisonwsmith.github.io>
+1. Go to **Settings > Pages**
+2. Set **Source** to **GitHub Actions** (not *Deploy from a branch*)
+3. Push to `main`, watch the run finish on the **Actions** tab
+4. Open <https://harrisonwsmith.github.io>
+
+The Source setting only has to be set once.
 
 ---
 
@@ -64,19 +66,17 @@ quarto preview        # live reload at localhost:4200, leave it running while yo
 quarto render         # one-off full build into _site/
 ```
 
-To publish: commit and push to `main`. The Action does the rest.
+To publish: commit and push to `main`. The Action does the rest, in about two
+minutes.
+
+Using GitHub Desktop: type a summary, **Commit to main**, then **Push origin**.
+
+From the command line:
 
 ``` bash
 git add .
 git commit -m "Update research page"
 git push
-```
-
-If you would rather skip CI and publish straight from your machine, delete
-`.github/workflows/publish.yml` and use:
-
-``` bash
-quarto publish gh-pages
 ```
 
 ---
