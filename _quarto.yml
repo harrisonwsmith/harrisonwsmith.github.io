@@ -12,7 +12,6 @@ website:
   favicon: images/favicon.png
 
   navbar:
-    logo: ""
     title: "Harrison W. Smith"
     pinned: false
     left:
