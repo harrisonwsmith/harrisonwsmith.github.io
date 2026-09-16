@@ -1,0 +1,112 @@
+---
+title: "Curriculum Vitae"
+toc: true
+toc-title: "Sections"
+---
+
+::: {.todo}
+**Placeholder with your known facts filled in.** Add dates, fill the empty sections from your CV file, and swap in the real PDF at `assets/cv.pdf`. Keep this page and the PDF in sync, or drop the page and link only the PDF. Delete this box when done.
+:::
+
+[Download PDF](assets/cv.pdf){.btn .btn-outline-secondary .btn-sm}
+
+## Appointments
+
+::: {.cv-entry}
+[Present]{.cv-date}
+
+::: {}
+[Postdoctoral Researcher, ORISE Fellow]{.cv-role}<br>
+[USDA-ARS, Poultry Production and Product Safety Research Unit · Fayetteville, AR]{.cv-where}<br>
+[Supervisor: Amanda Ashworth]{.cv-where}
+:::
+:::
+
+## Education
+
+::: {.cv-entry}
+[YEAR]{.cv-date}
+
+::: {}
+[Ph.D., Environmental Dynamics]{.cv-role}<br>
+[University of Arkansas]{.cv-where}<br>
+[Dissertation: TITLE]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[YEAR]{.cv-date}
+
+::: {}
+[M.S., Environment and Sustainability]{.cv-role}<br>
+[University of Michigan, School for Environment and Sustainability]{.cv-where}<br>
+[Specializations: Geospatial Data Science; Conservation Ecology]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[YEAR]{.cv-date}
+
+::: {}
+[B.S., Biological Sciences, *cum laude*]{.cv-role}<br>
+[University of Arkansas, Fulbright College · Minor in Spanish]{.cv-where}<br>
+[Honors thesis: nutrients, periphyton, and benthic macroinvertebrate scrapers in Ozark Highland streams]{.cv-where}
+:::
+:::
+
+## Fellowships and honors
+
+::: {.cv-entry}
+[YEAR]{.cv-date}
+
+::: {}
+[USDA-NIFA Predoctoral Fellowship]{.cv-role}
+:::
+:::
+
+::: {.cv-entry}
+[YEAR]{.cv-date}
+
+::: {}
+[FFAR Fellow]{.cv-role}<br>
+[Foundation for Food and Agriculture Research]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[YEAR]{.cv-date}
+
+::: {}
+[Food Resiliency Fellow]{.cv-role}
+:::
+:::
+
+## Publications
+
+See [Publications](publications.qmd).
+
+## Skills
+
+**Languages and tools.** [Python, R, Google Earth Engine, GDAL, QGIS, ArcGIS Pro, Git, ...]
+
+**Methods.** [Hyperspectral and multispectral image processing, radiative transfer modeling, random forest and gradient boosting, SHAP, spatial cross-validation, MaxEnt species distribution modeling, ...]
+
+**Field.** [UAV operation and Part 107 certification if applicable, spectroradiometry, soil and water sampling, ...]
+
+## Teaching and mentoring
+
+::: {.todo}
+Fill from your CV. For faculty applications this section carries real weight, so list courses, guest lectures, and students mentored by name and level.
+:::
+
+## Service
+
+::: {.todo}
+Peer review (list journals), committee service, outreach.
+:::
+
+## Presentations
+
+::: {.todo}
+Optional on the website since the CV PDF covers it. Consider listing only invited talks here and leaving contributed posters to the PDF.
+:::

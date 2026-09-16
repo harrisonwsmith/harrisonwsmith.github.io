@@ -1,0 +1,24 @@
+---
+title: "Publications"
+nocite: |
+  @*
+---
+
+::: {.todo}
+**How this page works.** It renders automatically from `publications.bib`. Add a BibTeX entry, re-render, and it appears here in APA style, sorted by the citation style. You never edit this file to add a paper. Delete this box once you have pasted your full Scholar export in.
+:::
+
+Full list also on [Google Scholar](https://scholar.google.com/citations?user=0P9K7HoAAAAJ).
+
+## Peer-reviewed articles
+
+::: {#refs}
+:::
+
+## Manuscripts in preparation
+
+::: {.todo}
+Optional section. Some people list these, some do not. If you keep it, use plain text lines rather than BibTeX so they are clearly separated from published work.
+:::
+
+- [Title]. *In preparation for [Journal].*

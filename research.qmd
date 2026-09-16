@@ -1,0 +1,56 @@
+---
+title: "Research"
+subtitle: "Three connected lines of work on measuring, predicting, and explaining agricultural and ecological systems."
+toc: true
+toc-title: "On this page"
+---
+
+::: {.todo}
+**Placeholder.** Each thrust below needs 2 to 3 sentences in your voice, plus one figure. The `.thrust-meta` line is the one-phrase framing a reader scans before deciding to read the paragraph. Swap each `images/research-*.jpg` for a real figure. Delete this box when done.
+:::
+
+## Remote sensing of nutrient dynamics
+
+::: {.thrust}
+![](images/research-remote-sensing.jpg)
+
+::: {}
+[UAV hyperspectral · Satellite time series · Watershed nutrient monitoring]{.thrust-meta}
+
+[Two or three sentences: what the measurement problem is, what sensors and platforms you use, and what the payoff is. Mention the Illinois River Watershed and poultry litter work here if that is the anchor example.]
+
+[Optional: one sentence naming collaborators or funders.]
+:::
+:::
+
+## Interpretable machine learning
+
+::: {.thrust}
+![](images/research-interpretable-ml.jpg)
+
+::: {}
+[SHAP · Spatial cross-validation · Crop yield and soil quality prediction]{.thrust-meta}
+
+[Two or three sentences: why prediction accuracy alone is not the goal, and what interpretability methods let you recover about the underlying system. The maize and soybean temperature threshold result is a concrete hook.]
+:::
+:::
+
+## Geospatial modeling of land suitability
+
+::: {.thrust}
+![](images/research-suitability.jpg)
+
+::: {}
+[Species distribution models · MaxEnt · Soil and climate suitability]{.thrust-meta}
+
+[Two or three sentences: the modeling question, the systems you have applied it to, and who uses the output.]
+:::
+:::
+
+## Software and tools
+
+::: {.todo}
+**Not yet in the navigation.** When you have your first public repo or web tool, uncomment the `tools.qmd` entry in `_quarto.yml` and move this section there. Until then it lives quietly at the bottom of this page, or you can delete it.
+:::
+
+Code from published work is on [GitHub](https://github.com/harrisonwsmith).

@@ -1,0 +1,66 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "!drafts/"
+
+website:
+  title: "Harrison W. Smith"
+  description: "Remote sensing, interpretable machine learning, and geospatial modeling for agricultural and ecological systems."
+  site-url: "https://harrisonwsmith.github.io"
+  favicon: images/favicon.png
+
+  navbar:
+    logo: ""
+    title: "Harrison W. Smith"
+    pinned: false
+    left:
+      - href: index.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: cv.qmd
+        text: CV
+      # Uncomment when you have your first tool. See drafts/tools.qmd.
+      # - href: tools.qmd
+      #   text: Tools
+    right:
+      - icon: github
+        href: https://github.com/harrisonwsmith
+        aria-label: GitHub
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=0P9K7HoAAAAJ
+        aria-label: Google Scholar
+
+  page-footer:
+    border: false
+    left: "© 2026 Harrison W. Smith"
+    right: "Built with [Quarto](https://quarto.org)"
+
+  # Uncomment once you have a Plausible or GoatCounter account.
+  # Do not use Google Analytics without a cookie banner if you have EU visitors.
+  # google-analytics: ""
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/styles.scss
+    toc: false
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    grid:
+      body-width: 860px
+      sidebar-width: 220px
+      margin-width: 220px
+
+bibliography: publications.bib
+csl: assets/apa.csl
+
+execute:
+  freeze: auto

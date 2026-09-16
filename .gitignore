@@ -1,0 +1,27 @@
+# Quarto build output
+/_site/
+/.quarto/
+*_files/
+*.html
+!_site/**
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.Rproj.user/
+*.Rproj
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Large local data that should not be in the site repo
+/data/
+*.tif
+*.tiff
+*.hdr
+*.bsq

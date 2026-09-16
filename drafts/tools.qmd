@@ -1,0 +1,62 @@
+---
+title: "Tools"
+subtitle: "Code and interactive tools from published and in-progress work."
+---
+
+<!--
+NOT YET PUBLISHED. This file lives in drafts/ and is excluded from the render
+in _quarto.yml, so it does not appear on the live site.
+
+To publish it when you have your first tool:
+  1. Move this file to the project root:  mv drafts/tools.qmd .
+  2. In _quarto.yml, uncomment the Tools entry in the navbar "left" list
+  3. Delete the drafts/ exclusion from the project render list if drafts/ is empty
+-->
+
+## Interactive
+
+::: {}
+### [Tool name]
+
+[One sentence: what it does and who it is for.]
+
+[Launch](#){.btn .btn-outline-secondary .btn-sm} [Source](#){.btn .btn-outline-secondary .btn-sm}
+:::
+
+## Code
+
+| Repository | What it does |
+|---|---|
+| [`repo-name`](#) | [One line] |
+
+: {tbl-colwidths="[30,70]"}
+
+---
+
+## Notes on hosting tools here
+
+GitHub Pages serves static files only, so there is no server-side Python or R.
+Two routes:
+
+**Runs in the browser, hosted here.** Embed directly in a `.qmd` page.
+
+- Observable JS: put `{ojs}` cells straight into the page
+- Maps: Leaflet or MapLibre via a plain `<script>` block
+- Python in the browser: Pyodide, works well up to moderate data sizes
+- A trained model: export to ONNX or TensorFlow.js and run inference client-side
+
+**Needs a server, hosted elsewhere and embedded.** Free tiers all work fine:
+
+- Hugging Face Spaces (Gradio or Streamlit, good for model demos)
+- Streamlit Community Cloud
+- shinyapps.io (Shiny for R or Python)
+
+Embed with an iframe:
+
+``` html
+<iframe src="https://YOUR-SPACE.hf.space"
+        width="100%" height="700" frameborder="0"></iframe>
+```
+
+Keep tool code in its own repository rather than in this one. This site stays
+fast to build, and each tool keeps its own dependencies.

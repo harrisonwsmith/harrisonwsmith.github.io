@@ -1,0 +1,289 @@
+/*-- scss:defaults --*/
+
+// ---------------------------------------------------------------
+// Fonts
+// ---------------------------------------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !default;
+$font-family-serif:      "Newsreader", Georgia, "Times New Roman", serif !default;
+$font-family-monospace:  "JetBrains Mono", "SFMono-Regular", Consolas, monospace !default;
+
+$font-size-root: 17px !default;
+$line-height-base: 1.65 !default;
+
+// ---------------------------------------------------------------
+// Palette
+// ---------------------------------------------------------------
+$ink:        #16191c;   // headings
+$body-color: #2e3338;   // body text
+$muted:      #6d757b;   // secondary text
+$accent:     #2f5d50;   // pine green
+$accent-dk:  #22453b;
+$paper:      #fdfcfa;   // warm white background
+$rule:       #e5e2dc;   // hairline borders
+$tint:       #f4f2ed;   // subtle fill
+
+$body-bg:    $paper !default;
+$primary:    $accent !default;
+$link-color: $accent !default;
+$link-hover-color: $accent-dk !default;
+
+$headings-font-family: $font-family-serif !default;
+$headings-font-weight: 500 !default;
+$headings-color: $ink !default;
+
+$navbar-bg: $paper !default;
+$navbar-fg: $body-color !default;
+$footer-bg: $paper !default;
+
+$code-color: $accent-dk !default;
+$code-bg: $tint !default;
+
+/*-- scss:rules --*/
+
+// ---------------------------------------------------------------
+// Typography
+// ---------------------------------------------------------------
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, .h1 { font-size: 2.15rem; letter-spacing: -0.015em; line-height: 1.18; }
+h2, .h2 { font-size: 1.5rem;  letter-spacing: -0.01em;  margin-top: 2.75rem; margin-bottom: 0.9rem; }
+h3, .h3 { font-size: 1.15rem; margin-top: 1.9rem; margin-bottom: 0.5rem; }
+
+h1.title {
+  font-size: 2.4rem;
+  margin-bottom: 0.35rem;
+}
+
+.subtitle, p.subtitle {
+  font-family: $font-family-sans-serif;
+  font-size: 1.02rem;
+  color: $muted;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+p { margin-bottom: 1.1rem; }
+
+// Quiet, underline-on-hover links. Academic, not bloggy.
+a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba($accent, 0.28);
+  transition: border-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    border-bottom-color: $accent;
+    text-decoration: none;
+  }
+}
+
+// Navbar, footer, and button links should not get the underline treatment.
+.navbar a, .nav-link, .footer a, .about-links a, .btn, h1 a, h2 a, h3 a,
+.quarto-title-banner a, .anchorjs-link {
+  border-bottom: none !important;
+}
+
+// ---------------------------------------------------------------
+// Navbar
+// ---------------------------------------------------------------
+.navbar {
+  border-bottom: 1px solid $rule;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+
+  .navbar-brand {
+    font-family: $font-family-serif;
+    font-size: 1.22rem;
+    font-weight: 500;
+    color: $ink;
+  }
+
+  .nav-link {
+    font-size: 0.93rem;
+    letter-spacing: 0.01em;
+    color: $muted !important;
+
+    &:hover { color: $accent !important; }
+    &.active { color: $ink !important; font-weight: 500; }
+  }
+}
+
+// ---------------------------------------------------------------
+// About page (trestles template)
+// ---------------------------------------------------------------
+.quarto-about-trestles {
+  .about-entity {
+    .about-image {
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+
+    .about-links {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.4rem;
+      margin-top: 1.1rem;
+
+      .about-link {
+        font-family: $font-family-sans-serif;
+        font-size: 0.82rem;
+        width: auto !important;
+        flex: 0 0 auto;
+        color: $muted;
+        border: 1px solid $rule;
+        border-radius: 4px;
+        padding: 0.28rem 0.6rem;
+        background: transparent;
+        transition: all 0.15s ease;
+
+        &:hover {
+          color: $accent;
+          border-color: rgba($accent, 0.45);
+          background: rgba($accent, 0.04);
+        }
+      }
+    }
+  }
+
+  .about-contents { padding-left: 2.2rem; }
+}
+
+// ---------------------------------------------------------------
+// Research cards
+// ---------------------------------------------------------------
+.thrust {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 1.8rem;
+  align-items: start;
+  padding: 1.9rem 0;
+  border-top: 1px solid $rule;
+
+  &:last-of-type { border-bottom: 1px solid $rule; }
+
+  img {
+    width: 100%;
+    border-radius: 4px;
+    display: block;
+  }
+
+  h3 {
+    margin-top: 0;
+    font-size: 1.22rem;
+  }
+
+  .thrust-meta {
+    font-family: $font-family-sans-serif;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: $muted;
+    margin-bottom: 0.4rem;
+  }
+
+  p:last-child { margin-bottom: 0; }
+}
+
+@media (max-width: 767px) {
+  .thrust {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .quarto-about-trestles {
+    .about-contents { padding-left: 0; }
+
+    .about-entity .about-links {
+      flex-direction: row !important;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+
+// ---------------------------------------------------------------
+// Publications list
+// ---------------------------------------------------------------
+#refs {
+  font-size: 0.95rem;
+
+  .csl-entry {
+    margin-bottom: 1.15rem;
+    padding-left: 1.6rem;
+    text-indent: -1.6rem;
+    line-height: 1.55;
+  }
+}
+
+// ---------------------------------------------------------------
+// CV
+// ---------------------------------------------------------------
+.cv-entry {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 1.2rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba($rule, 0.7);
+
+  .cv-date {
+    font-family: $font-family-sans-serif;
+    font-size: 0.83rem;
+    color: $muted;
+    padding-top: 0.15rem;
+    white-space: nowrap;
+  }
+
+  .cv-role { font-weight: 500; color: $ink; }
+
+  .cv-where {
+    font-size: 0.93rem;
+    color: $muted;
+  }
+}
+
+@media (max-width: 575px) {
+  .cv-entry { grid-template-columns: 1fr; gap: 0.2rem; }
+}
+
+// ---------------------------------------------------------------
+// Misc
+// ---------------------------------------------------------------
+.callout { border-radius: 4px; }
+
+blockquote {
+  border-left: 2px solid $accent;
+  padding-left: 1.1rem;
+  color: $muted;
+  font-style: normal;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid $rule;
+  opacity: 1;
+  margin: 2.5rem 0;
+}
+
+.nav-footer {
+  border-top: 1px solid $rule;
+  font-size: 0.83rem;
+  color: $muted;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+// Placeholder marker: shows up clearly while drafting, delete the class when done.
+.todo {
+  background: #fff8e1;
+  border-left: 3px solid #e0a800;
+  padding: 0.7rem 1rem;
+  font-family: $font-family-sans-serif;
+  font-size: 0.87rem;
+  color: #6b5300;
+  border-radius: 0 3px 3px 0;
+  margin: 1rem 0;
+}

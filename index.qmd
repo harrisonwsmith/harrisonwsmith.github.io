@@ -1,0 +1,72 @@
+---
+title: "Harrison W. Smith"
+subtitle: "Postdoctoral Researcher · USDA-ARS Poultry Production and Product Safety Research Unit"
+about:
+  template: trestles
+  image: images/headshot.jpg
+  image-shape: rounded
+  image-width: 15em
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:REPLACE-WITH-PREFERRED-EMAIL"
+    - icon: mortarboard-fill
+      text: Scholar
+      href: https://scholar.google.com/citations?user=0P9K7HoAAAAJ
+    - icon: github
+      text: GitHub
+      href: https://github.com/harrisonwsmith
+    - icon: person-badge
+      text: ORCID
+      href: "https://orcid.org/REPLACE-WITH-ORCID"
+    - icon: file-earmark-text
+      text: CV
+      href: cv.qmd
+---
+
+::: {.todo}
+**Placeholder.** Write 2 to 4 short paragraphs below in your own voice. Suggested shape, not a script: (1) what you study, in one plain sentence a non-specialist would follow; (2) the methods that make your approach distinctive; (3) where you are now and what you are building toward. Delete this box when done.
+:::
+
+[One sentence: the problem you work on and why it matters.]
+
+[Two or three sentences: the approach. Remote sensing at UAV and satellite scale, interpretable machine learning, geospatial modeling. What question does combining them let you answer that any one alone cannot?]
+
+[One or two sentences: current position, and the direction you are heading.]
+
+## Interests
+
+- Remote sensing of nutrient and canopy dynamics
+- Interpretable machine learning for agricultural and ecological prediction
+- Geospatial modeling of land suitability and conservation outcomes
+- Reproducible, open workflows for environmental data science
+
+## Education
+
+::: {.cv-entry}
+[Ph.D.]{.cv-date}
+
+::: {}
+[Environmental Dynamics]{.cv-role}<br>
+[University of Arkansas]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[M.S.]{.cv-date}
+
+::: {}
+[Environment and Sustainability]{.cv-role}<br>
+[University of Michigan, School for Environment and Sustainability]{.cv-where}<br>
+[Geospatial Data Science · Conservation Ecology]{.cv-where}
+:::
+:::
+
+::: {.cv-entry}
+[B.S.]{.cv-date}
+
+::: {}
+[Biological Sciences, *cum laude*]{.cv-role}<br>
+[University of Arkansas, Fulbright College · Minor in Spanish]{.cv-where}
+:::
+:::
