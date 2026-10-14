@@ -30,7 +30,7 @@ about:
       href: cv.qmd
 ---
 
-I study how plant traits and the processes they regulate vary across environments, and how to measure them reliably enough that the measurement still holds somewhere new. My work combines remote and proximal sensing, interpretable machine learning, and process-based modeling to make sensor-based measurements transferable, explainable, and usable.
+I study how plant traits and the processes they regulate vary across environments, and how to measure them reliably so that the estimates hold true in novel conditions. My work combines remote and proximal sensing, interpretable machine learning, and process-based modeling to make sensor-based measurements transferable, explainable, and usable.
 
 Recent work includes interpretable machine learning for U.S. maize and soybean yield, hyperspectral estimation of traits and water stress in soybean canopies, and satellite monitoring of vegetation recovery at a Superfund site with the Quapaw Nation. My PhD (Environmental Dynamics, University of Arkansas) spanned ground-penetrating radar, remote sensing at contaminated sites, and machine learning from Guatemala to the Corn Belt.
 
