@@ -11,9 +11,10 @@ in Smith_Harrison_CV 2026.docx first:
   2. An empty bullet under that heading, and nine other empty bullets further
      down. The ORISE role currently has no description at all.
 Then export to PDF, save it as assets/cv.pdf, and uncomment the line below.
+-->
 
 [Download full CV (PDF)](assets/cv.pdf){.btn .btn-outline-secondary .btn-sm}
--->
+
 
 ## Appointments
 
